@@ -3,9 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
-Vue.config.productionTip = false
-
+//引入全局的Toast 文件
+import Toast from './components/base/toast/toast'
+Vue.config.productionTip = false;
+Vue.use(Toast);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

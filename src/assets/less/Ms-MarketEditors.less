@@ -1,0 +1,131 @@
+.title{
+  width:686px;
+  height:68px;
+  background:rgba(250,250,250,1);
+  display: flex;
+  position: fixed;
+  top: 88px;
+  padding:0 32px;
+  font-size:26px;
+  font-weight:400;
+  align-items: center;
+  color:rgba(144,147,153,1);
+  div:nth-child(1){
+    width: 486px;
+  }
+  div:nth-child(2),div:nth-child(3){
+      width: 100px;
+  }
+  div:nth-child(3){
+    text-align: right;
+  }
+}
+.bottom{
+  width:686px;
+  height:100px;
+  background:rgba(250,250,250,1);
+  display: flex;
+  position: fixed;
+  bottom:0;
+  padding:0 32px;
+  font-size:26px;
+  font-weight:400;
+  color:rgba(144,147,153,1);
+  align-items: center;
+  justify-content: space-between;
+  .text{
+    display: flex;
+    .choice{
+      display: block;
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      border:1px solid rgba(220, 223, 230, 1);
+      font-size: 48px;
+      margin-right: 48px;
+    }
+    .icon-Choice{
+      color: @color-main;
+    }
+    .all-choice{
+      font-size:30px;
+      font-weight:400;
+      color:rgba(48,49,51,1);
+      line-height:48px;
+    }
+
+  }
+  .delete{
+    font-size:30px;
+    font-weight:400;
+    color:rgba(192, 196, 204, 1);
+    span{
+      font-size:30px;
+      font-weight:400;
+      color:rgba(192, 196, 204, 1);
+      margin-right: 16px;
+    }
+  }
+  .active{
+    color:rgba(48, 49, 51, 1);
+    span{
+    color:rgba(144, 147, 153, 1);
+    }
+  }
+}
+.content{
+  margin: 156px auto 100px;
+  ul{
+    width:686px;
+    margin: 0 auto;
+  }
+  li{
+    width: 686px;
+    height: 138px;
+    font-size:26px;
+    font-weight:400;
+    align-items: center;
+    display: flex;
+    border-bottom:1px solid rgba(232, 232, 232, 1);
+    background: #fff;
+    div:nth-child(1){
+      width: 486px;
+      display: flex;
+      align-items: center;
+      .choice{
+        display: block;
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        border:1px solid rgba(220, 223, 230, 1);
+        font-size: 48px;
+        margin-right: 48px;
+      }
+      .icon-Choice{
+        color: @color-main;
+      }
+      .name{
+        font-size:30px;
+        font-weight:600;
+        color:rgba(48,49,51,1);
+        line-height:36px;
+        display: block;
+        margin-bottom:0px;
+      }
+      .exchange{
+        font-size:26px;
+        font-weight:400;
+        color:rgba(144,147,153,1);
+      }
+    }
+    div:nth-child(2),div:nth-child(3){
+      width: 100px;
+      font-size: 40px;
+      color: rgba(151, 151, 151, 1);
+    }
+    div:nth-child(3){
+      text-align: right;
+
+    }
+  }
+}
