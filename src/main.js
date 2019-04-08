@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-//引入全局的Toast 文件
+//引入全局的Toast 文件,用法 this.$toast(message);
 import Toast from './components/base/toast/toast'
 Vue.config.productionTip = false;
 Vue.use(Toast);
