@@ -1,5 +1,5 @@
 # compontent
-# 主要是争对移动端的一些插件
+# 主要是针对移动端的一些插件
 > A Vue.js project
 
 ## Build Setup
