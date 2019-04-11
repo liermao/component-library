@@ -46,9 +46,9 @@
 
 <script type="text/ecmascript-6">
   import BScroll from 'better-scroll'
-  import Loading from '../base/loading.vue'
-  import Bubble from '../base/bubble.vue'
-  import {getRect} from '../../assets/js/dom'
+  import Loading from '../../base/loading/loading'
+  import Bubble from '../../base/bubble/bubble'
+  import {getRect} from '../../../assets/js/dom'
 
   const COMPONENT_NAME = 'scroll';
   const DIRECTION_H = 'horizontal';
